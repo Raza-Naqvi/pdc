@@ -1,0 +1,46 @@
+.shopbg{
+    background-image: url("../assets/images/shopbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.shopHeading{
+   margin: auto;
+}
+.bgLink{
+   /* flex-direction: column; */
+}
+.cardImage{
+   position: relative;
+  
+}
+.fontShoppingBag{
+   position: absolute;
+   top: 230px;
+   left: 120px;
+   /* display: none; */
+   opacity: 0;
+   transition: 0.3s;
+}
+.fontShoppingCart{
+   position: absolute;
+   top: 230px;
+   left: 160px;
+   /* display: none; */
+   opacity: 0;
+   transition: 0.3s;
+   
+}
+.cardImage:hover .fontShoppingBag {
+   /* display: block; */
+   opacity: 1;
+  
+}
+.cardImage:hover .fontShoppingCart {
+   /* display: block; */
+   opacity: 1;
+  
+}

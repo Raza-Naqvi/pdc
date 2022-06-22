@@ -1,0 +1,6 @@
+*{
+  box-sizing: border-box;
+  text-decoration: none !important;
+  /* overflow-x: hidden; */
+  list-style: none;
+}

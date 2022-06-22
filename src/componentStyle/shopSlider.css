@@ -1,0 +1,11 @@
+.sliderImages{
+    position: relative ;
+}
+.sliderBadge{
+    position: absolute ;
+
+}
+.sliderImages{
+    display: flex;
+    justify-content: center;
+}

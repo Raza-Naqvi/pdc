@@ -1,0 +1,30 @@
+.items{
+    
+    align-items: center;
+    justify-content: center;
+}
+.searchInput{
+    display: inline !important;
+    /* margin-left: -10px; */
+    align-self: center !important;
+}
+.searchDiv{
+    align-items: center !important;
+    justify-items: center !important;
+    
+}
+.searchBtn{
+
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+.container{
+    display: grid;
+    grid-template-rows: 1fr ;
+    grid-template-columns: 200px 150px 600px 220px;
+}
+/* .active, .linkBtn:hover{
+    background-color: black;
+    color: white !important;
+
+} */

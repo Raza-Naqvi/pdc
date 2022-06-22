@@ -1,0 +1,194 @@
+:root{
+    --blackColor: black;
+    --whiteColor: white;
+}
+
+.hrDivider{
+    width: 40vh;
+    /* text-align: center !important; */
+ margin: auto;
+    color: rgb(3, 97, 3);
+    height: 4px !important;
+    /* font-weight: bold !important; */
+
+
+}
+/* .homeBody:active{
+    background-color: black;
+    color: white;
+} */
+.bgImg{
+    background-image: url('../assets/images/banner.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 500px;
+}
+.content{
+    padding: 85px 0px 0px 45px;
+}
+.featuredProductUl{
+    /* list-style: none; */
+    text-align: center;
+    margin-top: 25px;
+}
+.featuredProductLi{
+    display: inline;
+    padding: 20px;
+    color: black;
+    border: none !important;
+    
+}
+/* .featuredProductLi:active{
+    background-color: black !important; 
+
+}
+.featuredProductLi:hover {
+    color: green !important;
+} */
+.container1{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 320px 320px 320px 320px;
+    justify-content: center;
+}
+.item1{
+    /* background-image: url("E:/React js/Classes/secondproject/src/assets/images/fruit1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px !important; */
+    position: relative;
+}
+.item2{
+    /* background-image: url("E:/React js/Classes/secondproject/src/assets/images/fruit2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px !important; */
+    position: relative;
+    
+}
+.item3{
+    /* background-image: url("E:/React js/Classes/secondproject/src/assets/images/fruit3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px !important; */
+    position: relative;
+}
+.item4{
+    /* background-image: url("E:/React js/Classes/secondproject/src/assets/images/fruit4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 200px !important; */
+    position: relative;
+   
+}
+.fontHeart1{
+    opacity: 0;
+    color: var(--blackColor);
+    position: absolute;
+    top: 170px;
+    left: 100px;
+}
+.fontShopping1{
+    color: var(--blackColor);
+    position: absolute;
+    top: 170px;
+    left: 130px;
+    
+}
+.fontHeart2{
+    color: var(--blackColor);
+    position: absolute;
+    top: 170px;
+    left: 110px;
+    /* background-color: white;
+    padding: 1px;
+    border-radius: 5px; */
+}
+.fontShopping2{
+    color: var(--blackColor);
+    position: absolute;
+    top: 170px;
+    left: 140px;
+    
+}
+
+.fontHeart3{
+    color: var(--blackColor);
+    position: absolute;
+    top: 165px;
+    left: 110px;
+}
+.fontShopping3{
+    color: var(--blackColor);
+    position: absolute;
+    top: 165px;
+    left: 140px;
+}
+.fontHeart4{
+    color: var(--blackColor);
+    position: absolute;
+    top: 165px;
+    left: 110px;   
+}
+.fontShopping4{
+    color: var(--blackColor);
+    position: absolute;
+    top: 165px;
+    left: 140px;
+}
+.container2{
+    margin-top: 25px;
+}
+.bgImgSideBySide1{
+    background-image: url("../assets/images/fruitsSidebySide1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 55px;
+}
+.btnSidebySide1{
+    margin-top: 25vh;
+}
+.bgImgSideBySide2{
+    background-image: url("../assets/images/fruitsSidebySide1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 55px;
+}
+.btnSidebySide2{
+    margin-top: 25vh;
+}
+
+.bgBlog1{
+    background-image: url('../assets/images/blog1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 55px;
+}
+.bgBlog2{
+    background-image: url('../assets/images/blog2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 55px;
+}
+.bgBlog3{
+    background-image: url('../assets/images/blog3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    margin-top: 55px;
+}
