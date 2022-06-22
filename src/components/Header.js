@@ -14,7 +14,7 @@ const Header = () => {
         <Col md={{ span: 2, offset: 1 }}>
           <i className="fas fa-envelope"></i>
           <FontAwesomeIcon icon={faEnvelope} />
-          {/* daniald3200@gmailcom */}
+          abcd@gmailcom
 
         </Col>
         <Col md={{ span: 3, offset: 0 }}>
