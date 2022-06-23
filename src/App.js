@@ -31,8 +31,9 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
       </Router>
-      {/* <Footer companyName="Organi" number="0300-000000" address="Adress Here plz" email="abcd@gmail.com" /> */}
+      <Footer companyName="Organi" number="0300-000000" address="Adress Here plz" email="abcd@gmail.com" />
     </>
   );
 }
