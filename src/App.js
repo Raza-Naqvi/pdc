@@ -19,7 +19,7 @@ function App() {
   return (
     <>
 
-      <Header />
+      {/* <Header /> */}
 
       <Router>
         <Main companyName="Orgino" />
